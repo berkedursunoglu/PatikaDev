@@ -51,7 +51,7 @@ public class Zodyagi {
                 break;
         }
 
-        System.out.println("Çin zodyağı burcunuz: " + burc);
+        System.out.println("Çin zodyağı burcunuz:: " + burc);
 
     }
 }
