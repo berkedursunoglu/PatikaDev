@@ -14,6 +14,7 @@ public class DikÜcgendeHipotenus {
 
         double formül = Math.sqrt((kenar1*kenar1)+(kenar2*kenar2));
 
+        System.out.println("Sonuclar: ");
         System.out.println("Hipotenüs: "+formül);
         System.out.println("Alan "+(kenar1*kenar2)/2);
 
