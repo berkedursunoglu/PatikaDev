@@ -18,12 +18,6 @@ public class DikÜcgendeHipotenus {
         System.out.println("Hipotenüs: "+formül);
         System.out.println("Alan "+(kenar1*kenar2)/2);
 
-
-
-
-
-
-
     }
 
 
