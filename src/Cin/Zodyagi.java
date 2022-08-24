@@ -1,18 +1,18 @@
-package CinZodyagi;
+package Cin;
 
 import java.util.Scanner;
 
-public class CinZodyagi {
+public class Zodyagi {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int dogumYil,kalan;
-        String burc="null";
+        int dogumYil, kalan;
+        String burc = "null";
         System.out.println("Hangi yıl doğdunuz: ");
         dogumYil = input.nextInt();
-        kalan = dogumYil %12;
+        kalan = dogumYil % 12;
 
-        switch (kalan){
+        switch (kalan) {
             case 0:
                 burc = "Maymun";
                 break;
@@ -51,8 +51,7 @@ public class CinZodyagi {
                 break;
         }
 
-        System.out.println("Çin zodyağı burcunuz: "+burc);
+        System.out.println("Çin zodyağı burcunuz: " + burc);
 
     }
-
 }
