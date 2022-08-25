@@ -10,6 +10,7 @@ public class ElmasCizim {
         Scanner in = new Scanner(System.in);
         System.out.print(" Bir Sayı gırınız : ");
         n = in.nextInt();
+
         for ( a = 1; a <= n; a++) {
             for ( b = 1; b <= (n - a); b++) {
                 System.out.print(" ");
