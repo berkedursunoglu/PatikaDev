@@ -4,15 +4,23 @@ import java.util.Scanner;
 
 public class AsalSayilar {
     public static void main(String[] args) {
-        int i = 2;
 
-        do {
-            if (i%2 !=0 && i%3 !=0){
-                System.out.print(i+" ");
+        String asalSayi = "";
+
+        for (int i = 1; i <= 100; i++) {
+            int sayac = 0;
+            for (int j = i; j >= 1; j--) {
+                if (i % j == 0) {
+                    sayac++;
+                }
             }
-            i++;
-        } while (i<100);
-
-
+            if (sayac == 2) {
+                asalSayi = asalSayi + i + " ";
+            }
+        }
+        System.out.println(asalSayi);
     }
+
+
 }
+
