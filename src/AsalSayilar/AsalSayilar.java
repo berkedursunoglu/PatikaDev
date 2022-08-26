@@ -17,8 +17,12 @@ public class AsalSayilar {
             if (sayac == 2) {
                 asalSayi = asalSayi + i + " ";
             }
+
         }
+
+        System.out.println(asalSayi);
     }
+
 
 }
 
