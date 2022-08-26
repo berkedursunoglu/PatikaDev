@@ -18,9 +18,7 @@ public class AsalSayilar {
                 asalSayi = asalSayi + i + " ";
             }
         }
-        System.out.println(asalSayi);
     }
-
 
 }
 
