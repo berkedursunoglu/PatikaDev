@@ -19,7 +19,7 @@ public class Siralama {
             dizi[i] = sayi;
         }
 
-        System.out.println("Sıralanmış şekilde sayılarınız...");
+        System.out.println("Sıralanmış şekilde sayılarınız..");
         Arrays.sort(dizi);
         System.out.println(Arrays.toString(dizi));
 
